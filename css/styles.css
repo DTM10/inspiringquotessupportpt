@@ -1,0 +1,268 @@
+
+body {
+    margin: 0;
+    font-family: "MerriweatherSans-Light";
+    font-size: 1.5rem;
+    color: #40514E
+}
+
+img {
+    max-width:70%;
+    height: auto;
+    margin-left: 0;
+}
+
+h1, h2 {
+    font-family: "Merriwheather-Light";
+    color: rgb(81, 155, 201);
+    font-weight: normal;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+hr {
+    border-style: solid none none none;
+    /* border-width: 0.4rem; */
+    border-color: rgba(77, 148, 198, 0.5);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+td {
+    height: 3rem;
+    vertical-align: middle;
+}
+
+.btn-secondary {
+    background-color: transparent;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.support-body-container {
+    background-image: linear-gradient(#5ce1e6, #004aad);
+}
+
+.support-header {
+    color: white;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.support-subheader {
+    color: #40514E;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: justify;
+}
+
+.title {
+    font-size: 3.5rem;
+    color: white;
+    text-align: left;
+}
+
+.bottom-container {
+    background-color: #004aad;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.bulb-img {
+    float: left;
+    max-width: 2.5rem;
+}
+
+.copyright {
+    color: white;
+    font-size: 1rem;
+}
+
+.btn {
+    color: rgb(81, 155, 201);
+}
+
+.email {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+:hover.btn-secondary {
+    color:rgb(156, 190, 238)
+}
+
+.middle-container {
+    color: #40514E;
+}
+
+
+.mockups-texts {
+    text-align: justify;
+    line-height: 2;
+    padding-bottom: 2rem;
+}
+
+.mood-description {
+    color: rgb(81, 155, 201);
+    text-align: center;
+}
+
+.top-container {
+    background-color: #5ce1e6;
+    color: white;
+}
+
+
+.right-container {
+    /* height: 328px; */
+    text-align: right;
+    
+}
+
+.message-container {
+    text-align: left;
+}
+
+.row-container {
+    padding: 0 10rem 10rem 11.5rem;
+}
+
+.row {
+    --bs-gutter-y: 1.5rem;
+}
+
+
+
+#support-page-button {
+    text-decoration: underline;
+}
+
+#email {
+    color: #fff;
+    margin: 0;
+}
+
+#hidden{
+    background-color: transparent;
+    color: #fff;
+    border-style: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    
+    h2 {
+        font-family: "Merriwheather-Light";
+        color: rgb(81, 155, 201);
+        font-size: 1.8rem;
+        font-weight: normal;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    table {
+        margin-left: 0;
+    }
+
+    td {
+        height: 2rem;
+    }
+
+    .block-container {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .bottom-container {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .bulb-img {
+        max-width: 4.5rem;
+        height: auto;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+    .support-body-container {
+        margin: 0;
+    }
+
+    .support-header {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .support-subheader {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .navbar .collapse {
+        margin-right: 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    
+    h2 {
+        font-family: "Merriwheather-Light";
+        color: rgb(81, 155, 201);
+        font-size: 1.2rem;
+        font-weight: normal;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    img {
+        max-width:35%;
+        height: auto;
+    }
+
+    table {
+        margin-left: 0;
+    }
+
+    td {
+        height: 1.5rem;
+    }
+
+    .bulb-img {
+        max-width: 1.5rem;
+        height: auto;
+    }
+
+    .support-header {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .support-subheader {
+        text-align: center;
+        font-size: 1.4rem;
+    } 
+}
